@@ -2,7 +2,7 @@ package HackerRank;
 
 import java.util.*;
 import java.security.*;
-class Solution {
+class InttoString {
  public static void main(String[] args) {
 
   DoNotTerminate.forbidExit();
@@ -35,8 +35,10 @@ class DoNotTerminate {
   private static final long serialVersionUID = 1;
  }
 
- public static void forbidExit() {
-  final SecurityManager securityManager = new SecurityManager() {
+ @SuppressWarnings("deprecation")
+public static void forbidExit() {
+  @SuppressWarnings("removal")
+final SecurityManager securityManager = new SecurityManager() {
    @Override
    public void checkPermission(Permission permission) {
     if (permission.getName().contains("exitVM")) {

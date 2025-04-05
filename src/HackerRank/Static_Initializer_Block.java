@@ -6,7 +6,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-class Solution {
+class TaticInitializer {
     static int B,H;
     static boolean flag;
 static{
