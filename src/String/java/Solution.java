@@ -1,3 +1,4 @@
+package String.java;
 import java.util.Scanner;
 
 public class Solution {
@@ -19,5 +20,7 @@ public class Solution {
     Solution s4 = new Solution();
     String ans = s4.mergeAtlernately(word1, word2);
     System.out.println(ans);
+    s1.close();
   }
+  
 }
